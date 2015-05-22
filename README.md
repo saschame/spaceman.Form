@@ -233,26 +233,6 @@ class SomePlugin extends BasePlugin
 
 ## Changelog
 
-### 1.4
-
-* Added support for passing `{fromName}`, `{fromEmail}`, and `{subject}` in the ‘redirect’ URL.
-
-### 1.3
-
-* Added support for multiple email addresses
-* Added the ContactFormService
-* Added the `contactForm.beforeSend` event, allowing third party plugins to add extra validation
-
-### 1.2
-
-* Added honeypot captcha support
-
-### 1.1
-
-* Added the ability to submit attachments
-* Added the ability to submit the form over Ajax
-* Added the ability to submit checkbox lists, which get compiled into comma-separated lists in the email
-
 ### 1.0
 
 * Initial release
